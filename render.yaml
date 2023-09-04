@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  claude-to-chatgpt:
+  #claude-to-chatgpt:
     container_name: claude-to-chatgpt
     image: wtzeng/claude-to-chatgpt:latest
     restart: unless-stopped
